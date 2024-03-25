@@ -1,7 +1,7 @@
 let nav = `
 <nav class="bg-white border-gray-200 dark:bg-gray-900">
 <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-<a href="./../html/index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+<a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
     <img src="https://threedio-cdn.icons8.com/-dOb6oihaUTpfBrt3YWQcY3aVk9ku7BzzLu9GmiOWxo/rs:fit:1024:1024/czM6Ly90aHJlZWRp/by1wcm9kL3ByZXZp/ZXdzLzg3MS9jNWY4/MGNjOS1jMTk4LTRi/NGUtYmNlMS00YjFh/YmRlMmU3NTAucG5n.png" class="w-12 " alt="Flowbite Logo" />
     <span class="self-center text-2xl font-bold whitespace-nowrap text-gray-700 dark:text-white">Sattya Store</span>
 </a>
@@ -55,16 +55,16 @@ let nav = `
     </div>
     <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
       <li>
-        <a href="./../html/index.html" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+        <a href="./index.html" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
       </li>
       <li>
-        <a href="./../html/contactus.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+        <a href="./html/contactus.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
       </li>
       <li>
-        <a href="./../html/about.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+        <a href="./html/about.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
       </li>
       <li>
-        <a href="./../html/signup.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Sign Up</a>
+        <a href="./html/signup.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Sign Up</a>
       </li>
     </ul>
   </div>
@@ -84,19 +84,19 @@ let main = `
         </div>
         <!-- Item 2 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="../image/iphone-card-40-iphone15hero-202309-removebg-preview.png"  style="width: 500px;"  class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <img src="./image/iphone-card-40-iphone15hero-202309-removebg-preview.png"  style="width: 500px;"  class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
         <!-- Item 3 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="../image/watch.png"  style="width: 500px;"  class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <img src="./image/watch.png"  style="width: 500px;"  class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
         <!-- Item 4 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="../image/store-card-40-ipad-pro-2022.png"  style="width: 600px;"  class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <img src="./image/store-card-40-ipad-pro-2022.png"  style="width: 600px;"  class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
         <!-- Item 5 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="../image/store-card-40-macbook-air-2024.png"  style="width: 500px;"  class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <img src="./image/store-card-40-macbook-air-2024.png"  style="width: 500px;"  class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
     </div>
     <!-- Slider indicators -->
@@ -136,7 +136,7 @@ let card = `
           <a href="#">
             <img
               class="p-8 rounded-t-lg"
-              src="./../image/store-card-40-ipad-pro-2022.png"
+              src="./image/store-card-40-ipad-pro-2022.png"
               alt="product image"
             />
           </a>
